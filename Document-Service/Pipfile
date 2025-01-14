@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+python-multipart = "*"
+sqlalchemy = "*"
+pydantic-settings = "*"
+boto3 = "*"
+redis = "*"
+elasticsearch = "*"
+jwt = "*"
+asyncpg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
