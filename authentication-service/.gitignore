@@ -1,0 +1,9 @@
+__pycache__/
+
+# Virtual environment
+*.env
+*.venv
+
+# IDE-specific ignores
+.vscode/
+.idea/
